@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0d1117;
+            color: #c9d1d9;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+        }
+
+        .left-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .right-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .wallpaper {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .wallpaper::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: pulse 4s ease-in-out infinite;
+        }
+        .wallpaper , img {
+             border-radius: 15px;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .progress-stats {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 15px;
+            padding: 25px;
+            height: 200px;
+        }
+
+        .progress-stats h2 {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #58a6ff;
+        }
+
+        .stat-item {
+            margin-bottom: 15px;
+        }
+
+        .stat-label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #21262d;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+            transition: width 1s ease-out;
+        }
+
+        .motivation {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            font-style: italic;
+            color: white;
+            font-size: 1.1em;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .about-me {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 15px;
+            padding: 25px;
+            position: relative;
+        }
+
+        .about-me h2 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #58a6ff;
+        }
+
+        .about-me p {
+            line-height: 1.6;
+            color: #c9d1d9;
+        }
+
+        .language-icons {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 15px;
+            padding: 25px;
+        }
+
+        .language-icons h2 {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            color: #58a6ff;
+        }
+
+        .icons-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .icon-item {
+            width: 50px;
+            height: 50px;
+            background: #21262d;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .icon-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .icon-item img {
+            width: 35px;
+            height: 35px;
+        }
+
+        .bottom-row {
+            display: grid;
+            grid-template-columns: 1fr auto auto;
+            gap: 20px;
+            grid-column: 1 / -1;
+        }
+
+        .gif-section {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 15px;
+            width: 180px;
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            overflow: hidden;
+        }
+
+        .gif-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+     .profile{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+     }
+        .profile-picture {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 15px;
+            width: 180px;
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-circle {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 4px solid #667eea;
+            background: #21262d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .profile-label {
+            font-size: 0.9em;
+            text-align: center;
+            color: #8b949e;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            
+            .bottom-row {
+                grid-template-columns: 1fr;
+            }
+
+            .gif-section, .profile-picture {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="wallpaper">
+                <img  src="https://cdn.wallpapersafari.com/87/23/X3lUA5.jpg" alt="">
+            </div>
+            
+            <div class="progress-stats">
+                <h2>📊 Progress Stats</h2>
+                <div class="stat-item">
+                    <div class="stat-label">
+                        <span>Commits</span>
+                        <span>1,234</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">
+                        <span>Pull Requests</span>
+                        <span>89</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%" data-width="65%"></div>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">
+                        <span>Issues Solved</span>
+                        <span>156</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%" data-width="75%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <div class="about-me">
+                <h2>About Me</h2>
+                <p>
+                    👋 Hi! I'm a passionate full-stack developer who loves building beautiful and functional web applications. 
+                    I enjoy working with modern technologies and constantly learning new skills to improve my craft.
+                    <br><br>
+                    🚀 Currently exploring cloud architecture and DevOps practices.
+                    <br><br>
+                    💡 Always open to collaborate on interesting projects!
+                </p>
+            </div>
+
+            <div class="language-icons">
+                <h2>🛠️ Languages & Tools</h2>
+                <div class="icons-grid">
+                    <div class="icon-item" title="JavaScript">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    </div>
+                    <div class="icon-item" title="Python">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    </div>
+                    <div class="icon-item" title="React">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                    </div>
+                    <div class="icon-item" title="Node.js">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                    </div>
+                    <div class="icon-item" title="HTML5">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    </div>
+                    <div class="icon-item" title="CSS3">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                    </div>
+                    <div class="icon-item" title="Git">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                    </div>
+                    <div class="icon-item" title="Docker">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-row">
+            <div class="motivation">
+                💭 "Code is like humor. When you have to explain it, it's bad." - Cory House
+            </div>
+            <div class="gif-section">
+               <img src="https://images.steamusercontent.com/ugc/934929770716267363/4B108B36506D078A1897A0939778D390B4479173/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="">
+            </div>
+            <div>
+                <div>
+                    <div style="text-align: center;" class="gif-section">
+                        <div style="font-size: 2em;"><img class="profile" src="https://cdn.wallpapersafari.com/87/23/X3lUA5.jpg" alt="" srcset=""></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Animate progress bars on load
+        window.addEventListener('load', () => {
+            const progressBars = document.querySelectorAll('.progress-fill');
+            progressBars.forEach(bar => {
+                setTimeout(() => {
+                    bar.style.width = bar.getAttribute('data-width');
+                }, 100);
+            });
+        });
+
+        // Add hover effect to icons
+        const icons = document.querySelectorAll('.icon-item');
+        icons.forEach(icon => {
+            icon.addEventListener('mouseenter', function() {
+                this.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+            });
+            icon.addEventListener('mouseleave', function() {
+                this.style.background = '#21262d';
+            });
+        });
+    </script>
+</body>
+</html>
