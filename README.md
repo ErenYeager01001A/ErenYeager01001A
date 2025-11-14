@@ -1,4 +1,4 @@
-# 👋 Hi, I'm **Thakor**
+# 👋 Hi, I'm **Jasmin Thakor**
 
 <img src="https://64.media.tumblr.com/1ef721453419808a851f9e971c5f11b9/tumblr_os0vd9nVA81ufj60ho1_500.gif" width="450" />
 
@@ -17,7 +17,7 @@ I build modern web apps, AI-powered tools, dashboards, and automated systems usi
 <p align="left">
 <img src="https://skillicons.dev/icons?i=html" width="50" />
 <img src="https://skillicons.dev/icons?i=css" width="50" />
-<img src="https://skillicons.dev/icons?i=js" width="50" />
+<!-- <img src="httpsillicons.dev/icons?i=js" width="50" /> -->
 <img src="https://skillicons.dev/icons?i=react" width="50" />
 <img src="https://skillicons.dev/icons?i=nextjs" width="50" />
 <img src="https://skillicons.dev/icons?i=tailwind" width="50" />
@@ -25,7 +25,58 @@ I build modern web apps, AI-powered tools, dashboards, and automated systems usi
 <img src="https://skillicons.dev/icons?i=php" width="50" />
 <img src="https://skillicons.dev/icons?i=mysql" width="50" />
 <img src="https://skillicons.dev/icons?i=docker" width="50" />
+<img src="https://skillicons.dev/icons?i=aws" width="50" />
+<img src="https://skillicons.dev/icons?i=figma" width="50" />
+<img src="https://skillicons.dev/icons?i=mongodb" width="50" />
+<img src="https://skillicons.dev/icons?i=ts" width="50" />
+<img src="https://skillicons.dev/icons?i=vite" width="50" />
+<img src="https://skillicons.dev/icons?i=dotnet" width="50" />
+<img src="https://skillicons.dev/icons?i=notion" width="50" />
+<img src="https://skillicons.dev/icons?i=linux" width="50" />
+<img src="https://skillicons.dev/icons?i=replit" width="50" />
+<img src="https://skillicons.dev/icons?i=flutter" width="50" />
+<img src="https://skillicons.dev/icons?i=java" width="50" />
+<img src="https://skillicons.dev/icons?i=markdown" width="50" />
+<img src="https://skillicons.dev/icons?i=npm" width="50" />
+<img src="https://skillicons.dev/icons?i=threejs" width="50" />
+<img src="https://skillicons.dev/icons?i=kali" width="50" />
+<img src="https://skillicons.dev/icons?i=bun" width="50" />
+<img src="https://skillicons.dev/icons?i=github" width="50" />
+<img src="https://skillicons.dev/icons?i=nodejs" width="50" />
+<img src="https://skillicons.dev/icons?i=express" width="50" />
+<img src="https://skillicons.dev/icons?i=redux" width="50" />
+<img src="https://skillicons.dev/icons?i=postgres" width="50" />
+<img src="https://skillicons.dev/icons?i=firebase" width="50" />
+<img src="https://skillicons.dev/icons?i=graphql" width="50" />
+<img src="https://skillicons.dev/icons?i=cloudflare" width="50" />
+<img src="https://skillicons.dev/icons?i=vercel" width="50" />
+<img src="https://skillicons.dev/icons?i=heroku" width="50" />
+<img src="https://skillicons.dev/icons?i=ubuntu" width="50" />
+
 </p>
+
+<!-- <p align="left">
+<img src="https://skillicons.dev/icons?i=aws" width="50" />
+<img src="https://skillicons.dev/icons?i=figma" width="50" />
+<img src="https://skillicons.dev/icons?i=mongodb" width="50" />
+<img src="https://skillicons.dev/icons?i=ts" width="50" />
+<img src="https://skillicons.dev/icons?i=vite" width="50" />
+<img src="https://skillicons.dev/icons?i=terminal" width="50" />
+<img src="https://skillicons.dev/icons?i=dotnet" width="50" />
+<img src="https://skillicons.dev/icons?i=notion" width="50" />
+<img src="https://skillicons.dev/icons?i=linux" width="50" />
+<img src="https://skillicons.dev/icons?i=replit" width="50" />
+<img src="https://skillicons.dev/icons?i=flutter" width="50" />
+<img src="https://skillicons.dev/icons?i=react" width="50" />
+<img src="https://skillicons.dev/icons?i=java" width="50" />
+<img src="https://skillicons.dev/icons?i=markdown" width="50" />
+<img src="https://skillicons.dev/icons?i=npm" width="50" />
+<img src="https://skillicons.dev/icons?i=threejs" width="50" />
+<img src="https://skillicons.dev/icons?i=kali" width="50" />
+<img src="https://skillicons.dev/icons?i=bun" width="50" />
+<img src="https://skillicons.dev/icons?i=github" width="50" />
+<img src="https://skillicons.dev/icons?i=haiku" width="50" />
+</p> -->
 
 <img src="https://skillicons.dev/icons?i=openai" width="50" title="OpenAI" />
 
@@ -77,9 +128,7 @@ E --> F[Deploy to Production];
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ErenYeager01001A&layout=compact&theme=radical)
 
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ErenYeager01001A&show_icons=true&theme=radical)
-
 
 ---
 
@@ -96,9 +145,9 @@ E --> F[Deploy to Production];
 
 ## 🌐 **Connect With Me**
 
-* 🔗 Portfolio: *(Add here)*
-* 💼 LinkedIn: *(Add here)*
-* 🧵 Twitter: *(Add here)*
+* 🔗 Portfolio: **
+* 💼 LinkedIn: **
+* 🧵 Twitter: **
 
 ---
 
@@ -108,16 +157,15 @@ E --> F[Deploy to Production];
 
 [![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/your-username)
 [![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/your-link)
-[![Twitter](https://skillicons.dev/icons?i=twitter)](https://twitter.com/your-handle)
+[![X](https://skillicons.dev/icons?i=twitter)](https://twitter.com/your-handle)
 [![Discord](https://skillicons.dev/icons?i=discord)](https://discord.com/users/your-id)
 [![Instagram](https://skillicons.dev/icons?i=instagram)](https://instagram.com/your-username)
 [![YouTube](https://skillicons.dev/icons?i=youtube)](https://youtube.com/@your-channel)
 
 
-
 ---
 
-## 💬 **Saitama Motivation Quote (One Punch Man)**
+## 💬 **My Real Code**
 
 > **“When you become strong… you lose your ability to feel fear. But you also lose excitement.”** — *Saitama*
 
