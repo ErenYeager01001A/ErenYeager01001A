@@ -1,5 +1,32 @@
-<!-- <div align="center">
+
+<div align="center">
+
+---
+
+### 🧬 My Life
+
+<table align="center">
+<tr>
+<td valign="top" width="58%" align="center">
  
+<img src="https://64.media.tumblr.com/1ef721453419808a851f9e971c5f11b9/tumblr_os0vd9nVA81ufj60ho1_500.gif" 
+width="210" 
+style="border-radius:10px; display:block; margin:auto;" />
+
+</td>
+
+<td valign="top" width="42%" align="center">
+ 
+<img src="https://media.tenor.com/DTf5chPXnqoAAAAd/anime.gif" 
+width="210" 
+style="border-radius:10px; display:block; margin:auto;" />
+
+</td>
+</tr>
+</table>
+
+<!-- </div><!-- <div align="center"> -->
+<!-- 
 ```
  █████╗ ██████╗ ██╗███████╗███████╗     ██╗ █████╗ ███╗   ██╗███████╗██████╗ ███████╗███╗   ██╗
 ██╔══██╗██╔══██╗██║██╔════╝██╔════╝     ██║██╔══██╗████╗  ██║██╔════╝██╔══██╗██╔════╝████╗  ██║
@@ -8,8 +35,8 @@
 ██║  ██║██║  ██║██║███████║███████╗╚█████╔╝██║  ██║██║ ╚████║███████╗██║  ██║███████╗██║ ╚████║
 ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝ ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝
 ```
- 
-</div>
+ -->
+<!-- </div>
  
 ---
  
@@ -27,22 +54,22 @@
  
 I don't just write code — I build **intelligent systems** that think, automate, and scale.
 Every project I ship uses AI agents, optimized pipelines, and modern architecture to do more with less.
- 
+  -->
 <!-- dream encoded: Japan 2027 
 `dream_destination = "\u30b8\u30e3\u30d1\u30f3"` &nbsp;·&nbsp; `target_year = 2027` &nbsp;·&nbsp; `status = "building the path 🚀"`
  -->
-</div>
+<!--</div>-->
  
  
 <!-- ## ⚡ Core Skills -->
- 
+ <!--
 <table>
 <tr>
 <td valign="top" width="58%">
  
 <!--### 🛠 Languages & Tools -->
  
-<p>
+<!-- <p> -->
 <!-- <img src="https://skillicons.dev/icons?i=python" height="34" title="Python" />
 <img src="https://skillicons.dev/icons?i=ts" height="34" title="TypeScript" />
 <img src="https://skillicons.dev/icons?i=js" height="34" title="JavaScript" />
@@ -68,11 +95,11 @@ Every project I ship uses AI agents, optimized pipelines, and modern architectur
 <img src="https://skillicons.dev/icons?i=figma" height="34" title="Figma" />
 </p> -->
  
-<img src="https://64.media.tumblr.com/1ef721453419808a851f9e971c5f11b9/tumblr_os0vd9nVA81ufj60ho1_500.gif" width="210" style="border-radius:10px;"  />
+<!--<img src="https://64.media.tumblr.com/1ef721453419808a851f9e971c5f11b9/tumblr_os0vd9nVA81ufj60ho1_500.gif" width="210" style="border-radius:10px;"  />
 </td>
 <td valign="top" width="42%" align="center">
  
-<img src="https://media.tenor.com/DTf5chPXnqoAAAAd/anime.gif" width="210" style="border-radius:10px;" />
+<img src="https://media.tenor.com/DTf5chPXnqoAAAAd/anime.gif" width="210" style="border-radius:10px;" /> -->
 <!-- <!--<img src="https://media.tenor.com/KVFqRA1S1NoAAAAd/bocchi-the-rock-bocchi.gif" width="210" style="border-radius:10px;" />
   <!--<img src="https://media.tenor.com/7Hu7qzFdgxQAAAAi/okay.gif" width="210" style="border-radius:10px;" />
   <!--<img src="https://media.tenor.com/zXCbu7b7qA8AAAAd/bocchi-the-rock-bocchi-the-rock-gif.gif" width="210" style="border-radius:10px;" />
@@ -81,11 +108,11 @@ Every project I ship uses AI agents, optimized pipelines, and modern architectur
   <!--<img src="https://media.tenor.com/gCoKwtK9DAkAAAAC/bocchi-the-rock-gif-bocchi-the-rock.gif" width="210" style="border-radius:10px;" />
   <!--<img src="https://media.tenor.com/S1_EANGlMJoAAAAC/hello-hi.gif" width="210" style="border-radius:10px;" />
  -->
-</td>
-</tr>
-</table>
+<!-- </td>
+</tr> -->
+<!-- </table> -->
  
----
+
  
 <!-- ## 🤖 What I Build 
  
@@ -132,7 +159,7 @@ Every project I ship uses AI agents, optimized pipelines, and modern architectur
  
 <div align="center">
  
-*Building systems.For My Dream.*
+**Building systems.For My Dream.**
 </br> **`18 · 13 25 4 18 5 1 13 9 19 20 15 7 15 9 14 7 20 15 10 1 16 1 14`**
  
 </div>
