@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
  
 ```
  █████╗ ██████╗ ██╗███████╗███████╗     ██╗ █████╗ ███╗   ██╗███████╗██████╗ ███████╗███╗   ██╗
@@ -28,23 +28,22 @@
 I don't just write code — I build **intelligent systems** that think, automate, and scale.
 Every project I ship uses AI agents, optimized pipelines, and modern architecture to do more with less.
  
-<!-- dream encoded: Japan 2027 -->
+<!-- dream encoded: Japan 2027 
 `dream_destination = "\u30b8\u30e3\u30d1\u30f3"` &nbsp;·&nbsp; `target_year = 2027` &nbsp;·&nbsp; `status = "building the path 🚀"`
- 
+ -->
 </div>
  
----
  
-## ⚡ Core Skills
+<!-- ## ⚡ Core Skills -->
  
 <table>
 <tr>
 <td valign="top" width="58%">
  
-### 🛠 Languages & Tools
+<!--### 🛠 Languages & Tools -->
  
 <p>
-<img src="https://skillicons.dev/icons?i=python" height="34" title="Python" />
+<!-- <img src="https://skillicons.dev/icons?i=python" height="34" title="Python" />
 <img src="https://skillicons.dev/icons?i=ts" height="34" title="TypeScript" />
 <img src="https://skillicons.dev/icons?i=js" height="34" title="JavaScript" />
 <img src="https://skillicons.dev/icons?i=bash" height="34" title="Bash" />
@@ -67,8 +66,9 @@ Every project I ship uses AI agents, optimized pipelines, and modern architectur
 <img src="https://skillicons.dev/icons?i=git" height="34" title="Git" />
 <img src="https://skillicons.dev/icons?i=github" height="34" title="GitHub" />
 <img src="https://skillicons.dev/icons?i=figma" height="34" title="Figma" />
-</p>
+</p> -->
  
+<img src="https://64.media.tumblr.com/1ef721453419808a851f9e971c5f11b9/tumblr_os0vd9nVA81ufj60ho1_500.gif" width="210" style="border-radius:10px;"  />
 </td>
 <td valign="top" width="42%" align="center">
  
@@ -87,7 +87,7 @@ Every project I ship uses AI agents, optimized pipelines, and modern architectur
  
 ---
  
-## 🤖 What I Build
+<!-- ## 🤖 What I Build 
  
 > I engineer **AI-powered products** — not just apps that call an API.
 > Everything I build is designed around **speed, intelligence, and autonomy**.
@@ -128,7 +128,7 @@ Every project I ship uses AI agents, optimized pipelines, and modern architectur
  
 </div>
  
----
+--->
  
 <div align="center">
  
