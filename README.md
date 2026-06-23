@@ -157,9 +157,9 @@ Every project I ship uses AI agents, optimized pipelines, and modern architectur
  
 --->
  
-<div align="center">
+<!-- <div align="center">
  
 **Building systems.For My Dream.**
 </br> **`18 · 13 25 4 18 5 1 13 9 19 20 15 7 15 9 14 7 20 15 10 1 16 1 14`**
  
-</div>
+</div> -->
